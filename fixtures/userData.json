@@ -1,0 +1,63 @@
+{
+    "newUser": {
+        "id": 1,
+        "username": "testUser",
+        "firstName": "Test",
+        "lastName": "User",
+        "email": "test.user@example.com",
+        "password": "p@ssw0rd1",
+        "phone": "1234567890",
+        "userStatus": 1
+    },
+
+    "loginCredentials": {
+        "username": "test user1",
+        "password": "correctPassword"
+    },
+
+    "newUsersList": [
+        {
+            "id": 2,
+            "username": "testing Users List",
+            "firstName": "Test",
+            "lastName": "Users",
+            "email": "test.user@example.com",
+            "password": "p@ssw0rd123",
+            "phone": "12345678901",
+            "userStatus": 2
+        },
+        {
+            "id": 3,
+            "username": "testUser3",
+            "firstName": "Test3",
+            "lastName": "User3",
+            "email": "test3.user@example.com",
+            "password": "p@ssw0rd1",
+            "phone": "1234567892",
+            "userStatus": 1
+        }
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

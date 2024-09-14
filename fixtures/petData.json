@@ -1,0 +1,38 @@
+{
+  "newPet": {
+    "id": 1234,
+    "category": {
+      "id": 3,
+      "name": "Cats"
+    },
+    "name": "Louvre",
+    "photoUrls": [
+      "https://example.com/photo1.jpg"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "test1"
+      }
+    ],
+    "status": "available"
+  },
+
+  "updatePet": {
+    "name": "Nancy",
+    "photoUrls": [
+      "https://example.com/photo2.jpg"
+    ],
+    "status": "reserved"
+  }
+
+
+
+
+
+
+
+
+
+
+}

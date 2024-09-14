@@ -1,18 +1,25 @@
 {
   "name": "api",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "api-pets": "mocha ./test/pets.js",
+    "api-users": "mocha ./test/users.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mochawesome": "^7.1.3"
+  },
+  "devDependencies": {
     "axios": "^1.7.7",
     "chai": "^5.1.1",
+    "esm": "^3.2.25",
     "mocha": "^10.7.3",
-    "mochawesome": "^7.1.3"
+    "mocha-allure-reporter": "^1.4.0"
   }
 }

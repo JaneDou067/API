@@ -1,0 +1,22 @@
+{
+  "reporter": "spec",
+  "timeout": 10000,
+  "require": "chai/register-expect.js",
+  "spec": "./test/*.js"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
